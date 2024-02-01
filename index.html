@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Seleziona la tua località</h2>
+
+<select id="regione" onchange="aggiornaProvince()"> // quando cambia regione si attiva la funzione
+  <option value="">Seleziona regione</option>
+</select>
+
+<select id="provincia" onchange="aggiornaComuni()">
+  <option value="">Seleziona provincia</option>
+</select>
+
+<select id="comune">
+  <option value="">Seleziona comune</option>
+</select>
+
+<script src="js.js"></script>
+
+</body>
+</html>
